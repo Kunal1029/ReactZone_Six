@@ -76,6 +76,7 @@ export default function Card() {
           </a>
         </div>
       </div>
+      
     </div>
   );
 }
