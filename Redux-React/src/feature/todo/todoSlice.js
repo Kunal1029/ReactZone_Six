@@ -1,4 +1,4 @@
- import { createSlice, nanoid } from "@reduxjs/toolkit";
+import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 const initialState = {
   todoss: [{ id: null, text: "Hello World", completed: false }],

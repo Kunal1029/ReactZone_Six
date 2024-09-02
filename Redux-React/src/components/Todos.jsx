@@ -24,7 +24,7 @@ function Todos() {
     e.preventDefault();
     dispatch(submitUpdate(id))
     dispatch(updateTodo(""))
-    dispatch(stopEdit(null))
+    dispatch(stopEdit())
   }
 
   return (
@@ -41,7 +41,7 @@ function Todos() {
                <br /> <button>Update</button>
               </form>
                  &nbsp;
-                <button onClick={() => dispatch(stopEdit(null))}>Cancel</button>
+                <button onClick={() => dispatch(stopEdit())}>Cancel</button>
               </>
             ) : (
               <>
